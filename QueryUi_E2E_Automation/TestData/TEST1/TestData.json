@@ -1,0 +1,41 @@
+{
+  "NonUS1": {
+    "OperatingDesk": "LDNCrudeSour",
+    "InternalOperatingDesk": "SingaporeCrude",
+    "CompanyCode": "nGEnUKIntlAg",
+    "InternalCompanyCode": "nGEnUKIntlAg",
+    "InternalInternalCompanyCode": "nGlencoreSingaporePt",
+    "InternalStrategyNumber": 90131456,
+    "StrategyNum": 90131490,
+    "TraderInitials": "KSP",
+    "InternalTraderInitials": "JCU"
+  },
+  "NonUS2": {
+    "OperatingDesk": "SingaporeCrude",
+    "CompanyCode": "nGlencoreSingaporePt",
+    "InternalStrategyNumber": 90131456,
+    "StrategyNum": 90131456,
+    "TraderInitials": "JCU"
+  },
+  "NonUS3": {
+    "OperatingDesk": "LDNCrudeWAF",
+    "CompanyCode": "nSTShipGlbTwn",
+    "InternalStrategyNumber": 90121353,
+    "StrategyNum": 90133328,
+    "TraderInitials": "MAK"
+  },
+  "US1": {
+    "OperatingDesk": "NYCManagement",
+    "CompanyCode": "nGlencoreLtd",
+    "InternalStrategyNumber": 90121363,
+    "StrategyNum": 90017789,
+    "TraderInitials": "DKK"
+  },
+  "US2": {
+    "OperatingDesk": "NYCManagement",
+    "CompanyCode": "nGlencoreLtd",
+    "InternalStrategyNumber": 90121363,
+    "StrategyNum": 90017789,
+    "TraderInitials": "DKK"
+  }
+}
