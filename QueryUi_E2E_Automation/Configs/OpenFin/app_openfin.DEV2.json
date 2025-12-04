@@ -1,0 +1,64 @@
+{
+  "devtools_port": 9090,
+  "startup_app": {
+    "name": "Oil Hub",
+    "url": "https://gbldncommoniisdev2.anyaccess.net/OilHubHome/assets/index.html",
+    "uuid": "oilHub dev2 v1.0",
+    "applicationIcon": "https://gbldncommoniisdev2.anyaccess.net/OilHubHome/assets/icons-oil.ico",
+    "autoShow": false,
+    "backgroundColor": "red",
+    "contextMenu": true,
+    "defaultWidth": 1240,
+    "defaultHeight": 900,
+    "shadow": true,
+    "frame": false,
+    "resizable": true,
+    "taskbarIconGroup": "oilHub dev v1.0",
+    "accelerator": {
+      "zoom": true,
+      "reload": true
+    },
+    "permissions": {
+      "System": {
+        "launchExternalProcess": true
+      }
+    },
+    "defaultDomainSettings": {
+      "rules": [
+        {
+          "match": [
+            "<all_urls>"
+          ],
+          "options": {
+            "downloadSettings": {
+              "rules": [
+                {
+                  "match": [
+                    "*://*/*.msg",
+                    "*://*/*.eml"
+                  ],
+                  "behavior": "no-prompt"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+
+  "licenseKey": "db064529-6d22-45a1-82b5-8f302b2ac669",
+
+  "runtime": {
+    "version": "30.110.74.13",
+    "arguments": "--lang=en-GB"
+  },
+
+  "shortcut": {
+    "company": "Glencore",
+    "description": "Oil Hub App",
+    "icon": "https://gbldncommoniisdev2.anyaccess.net/OilHubHome/assets/icons-oil.ico",
+    "name": "Oil Hub dev2"
+  }
+
+}
